@@ -1,0 +1,249 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href = "https: //fonts.googleapis.com/css2? family = Scheherazade + New & display = swap "rel =" stylesheet ">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Ítalo Nunes</title>
+        <style>
+            #slider {
+	overflow: hidden;
+    z-index: 100;
+}
+#slider figure {
+    top: 100px;
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+    z-index: 100;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+	}
+}
+        </style>
+       
+        
+    </head>
+    <body>
+       
+            <video autoplay muted Loop class="video">
+                <source src="TI.mp4" type="video/mp4">
+            </video>
+       
+
+            <nav>
+                <div class="container">
+                    <div class="logo"></div>
+
+                <label for="drop" class="toggle btn-menu">MENU</label>
+                <input type="checkbox" id="drop">
+                
+                <ul class="menu">
+                    <li><a href="">HOME</a></li>
+                    <li>
+                        <label for="drop-1" class="toggle">Linguagens</label>
+                        <a href="#galeria">Linguagens</a>
+                        <input type="checkbox" id="drop-1">
+                        
+                    </li>
+                       <!-- <li>
+                            <label for="drop-2" class="toggle">P</label>
+                            <a href=""></a>
+                            <input type="checkbox" id="drop-2">
+                            <ul>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                
+                            </ul>
+                        </li>-->
+                        <li>
+                            <label for="drop-3" class="toggle">Parcerias</label>
+                            <a href="#portal">Parcerias</a>
+                            <input type="checkbox" id="drop-3">
+                            <!--<ul>
+                                <li><a href=""></a></li>
+                                <li><a href=""></a></li>
+                                
+                            </ul>-->
+                        </li>
+                        <li>
+                            <label for="drop-3" class="toggle">CONTATO</label>
+                            <a href="">CONTATO</a>
+                            <input type="checkbox" id="drop-3">
+                            <ul>
+                              <!--<li><a href=""></a></li>
+                                <li><a href=""></a></li>-->
+                                
+                            </ul>
+                        </li>
+                </ul>
+                </div>
+            </nav>
+        
+            <div id="slider">
+                <figure>
+                    <img src="slide1.jpeg">
+                    <img src="slide2.jpeg">
+                    
+                    
+                </figure>
+            </div>
+        
+        
+            <div class="box-area">
+               <div class="single-box">
+               <div class="img-area"></div>
+               <div class="img txt">
+                   <span class="header-text"><strong>Missão</strong></span>
+                   <p>Existimos para fortalecer empresas.</p>
+               </div>
+           </div>
+           <div class="single-box">
+            <div class="img-area"></div>
+            <div class="img txt">
+                <span class="header-text"><strong>Visão</strong></span>
+                <p>Desenvolvemos o que você precisa!</p>
+            </div>
+        </div>
+        <div class="single-box">
+            <div class="img-area"></div>
+            <div class="img txt">
+                <span class="header-text"><strong>Valores</strong></span>
+                <p>Ética e Responsabilidade nos guiam</p>
+            </div>
+        </div>
+       </div>
+        
+       <header>
+        <h1><a name="galeria">Linguagens</a></h1>
+    </header>
+    <main>
+        <div class="gallery-container">
+            <a href="#chick-hicks" class="gallery-items">
+                <img src="java.jpg" alt="Chick Hicks">
+            </a>
+            <a href="spring.jpg" class="gallery-items">
+                <img src="spring.jpg" alt="Doctor Hudson">
+            </a>
+            <a href="SQL.png" class="gallery-items">
+                <img src="SQL.png" alt="Fillmore">
+            </a>
+            <a href="css.png" class="gallery-items">
+                <img src="css.png" alt="Flo">
+            </a>
+            <a href="boot.png" class="gallery-items">
+                <img src="boot.png" alt="Guido">
+            </a>
+            <a href="script.png" class="gallery-items">
+                <img src="script.png" alt="lightning-mcqueen">
+            </a>
+          <!--  <a href="img/Lizzie.jpg" class="gallery-items">
+                <img src="img/Lizzie.jpg" alt="Lizzie">
+            </a>
+            <a href="img/Luigi.png" class="gallery-items">
+                <img src="img/Luigi.png" alt="Luigi">
+            </a>
+            <a href="img/Mack.jpg" class="gallery-items">
+                <img src="img/Mack.jpg" alt="Mack">
+            </a>
+            <a href="img/Ramone.jpg" class="gallery-items">
+                <img src="img/Ramone.jpg" alt="Ramone">
+            </a>
+            <a href="img/Ruivo.jpg" class="gallery-items">
+                <img src="img/Ruivo.jpg" alt="Ruivo">
+            </a>
+            <a href="img/Sally%20Carrera.jpg" class="gallery-items">
+                <img src="img/Sally%20Carrera.jpg" alt="Sally">
+            </a>
+            <a href="img/Sheriff.jpg" class="gallery-items">
+                <img src="img/Sheriff.jpg" alt="Sheriff">
+            </a>
+            <a href="img/sven.jpg" class="gallery-items">
+                <img src="img/sven.jpg" alt="Sven">
+            </a>
+            <a href="img/The%20King.jpg" class="gallery-items">
+                <img src="img/The%20King.jpg" alt="The King">
+            </a>
+            <a href="img/Tow%20Mater.jpg" class="gallery-items">
+                <img src="img/Tow%20Mater.jpg" alt="Tow Mater">
+            </a>-->
+        </div>        
+    </main>
+  
+    <header>
+        <h1><a name="portal">Trabalhos Concluidos</a></h1>
+    </header>
+    <main>
+        <div class="gallery-container">
+            <a href="#chick-hicks" class="gallery-items">
+                <img src="up.png" alt="Chick Hicks">
+            </a>
+            <a href="3r.png" class="gallery-items">
+                <img src="3r.png" alt="Doctor Hudson">
+            </a>
+            <a href="para.png" class="gallery-items">
+                <img src="para.png" alt="Fillmore">
+            </a>
+        </div>        
+    </main>
+    
+
+<footer class="footer">
+  	 <div class="conta">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			
+  	 			<!--<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>-->
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://twitter.com/INP0389"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/italonp_/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/in/%C3%ADtalo-nunes-pereira-72463590/"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+        
+    </body>
+</html>
